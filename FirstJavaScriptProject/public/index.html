@@ -1,0 +1,56 @@
+<html>
+<head>
+
+<link rel = "stylesheet" text = "text/css" href="/css/styleFile.css"/> 
+	<title> The Layout </title>
+
+</head>
+<body ng-app="DriverView" background-color = "#0000FF">
+<div class = "driverInfo">
+<div class="driverImage">
+
+	<img src ="/image/bakkie.jpg">
+
+</div>
+
+<div class = "AddVehicle" > 
+	Make :
+	<input type = "text" ng-model = "make" > <br/>
+	Model:
+	<input type = "text" ng-model = "model" ><br/>
+	Type:
+	<input type = "text" ng-model = "Type" ><br/>
+	Color:
+	<input type = "text" ng-model = "Color" ><br/>
+	Vin Number:
+	<input type = "text" ng-model = "Vin Number" ><br/>
+	Registration Number:
+	<input type = "text" ng-model = "Registration Number" ><br/>
+</div>
+
+</div>
+<ul class="tab">
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'tabOne')">tabOne</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'tabTwo')">tabTwo</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'tabThree')">tabThree</a></li>
+</ul>
+
+<div id="tabOne" class="tabcontent">
+  <h3>Tab One</h3>
+  <p>Tab One show Display Some Part of the Info.</p>
+</div>
+
+<div id="tabTwo" class="tabcontent">
+  <h3>Tab Two</h3>
+  <p>Tab Two show Display Some Part of the Info.</p> 
+</div>
+
+<div id="tabThree" class="tabcontent">
+  <h3>Tab Three</h3>
+  <p>Tab Three show Display Some Part of the Info.</p>
+</div>
+
+	<script src ="/js/app.js"> </script>
+
+</body>
+</html>
